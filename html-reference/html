@@ -2,9 +2,92 @@
 <html>
 <title>HTML Tutorial</title>
 <body>
- <!-- Link back to reference home -->
+HTML Reference Page
 
 <h1>The HTML Reference Sheet</h1>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+</style>
+</head>
+<body>
+
+<table style="width:100%">
+  <tr>
+    <th>Name</th>
+    <th>Start Tag</th> 
+    <th>End Tag</th>
+  </tr>
+  <tr>
+    <td>HTML</td>
+    <td>&lt;html&gt;</td>
+    <td>&lt;/html&gt;</td>
+  </tr>
+  <tr>
+    <td>Head</td>
+    <td>&lt;head&gt;</td>
+    <td>&lt;/head&gt;</td>
+  </tr>
+  <tr>
+    <td>Title</td>
+    <td>&lt;title&gt;</td>
+    <td>&lt;/title&gt;</td>
+  <tr>
+    <td>Body</td>
+    <td>&lt;body&gt;</td>
+    <td>&lt;/body&gt;</td>
+  </tr>
+  <tr>
+    <td>Heading</td>
+    <td>&lt;h1&gt;</td>
+    <td>&lt;/h1&gt;</td>
+  </tr>
+  <tr>
+    <td>Paragraph</td>
+    <td>&lt;p&gt;</td>
+    <td>&lt;/p&gt;</td>
+  </tr>
+  <tr>
+    <td>Breaks</td>
+    <td>&lt;br&gt;</td>
+    <td>&lt;None&gt;</td>
+  </tr>
+  <tr>
+    <td>Lines</td>
+    <td>&lt;hr&gt;</td>
+    <td>&lt;None&gt;</td>
+  </tr>
+  <tr>
+    <td>Comments</td>
+    <td>&lt;<!- &gt;</td>
+    <td>&lt;-->&gt;</td>
+  <tr>
+    <td>Link</td>
+    <td>&lt;a&gt;</td>
+    <td>&lt;/a&gt;</td>
+  </tr>
+  <tr>
+    <td>Image</td>
+    <td>&lt;img&gt;</td>
+    <td>&lt;None&gt;</td>
+  </tr>
+  <tr>
+    <td>Lists</td>
+    <td>&lt;ul&gt;</td>
+    <td>&lt;/ul&gt;</td>
+    <tr>
+    <td>Table</td>
+    <td>&lt;table&gt;</td>
+    <td>&lt;/table&gt;</td>
+  </tr>
+  <tr>
+    <td>Blocks</td>
+    <td>&lt;div&gt;</td>
+    <td>&lt;/div&gt;</td>
+  </tr>
+</table>
 
 <p>HTML:&lt;html&gt;</p>
 <p> Must HTML need to work</p>
