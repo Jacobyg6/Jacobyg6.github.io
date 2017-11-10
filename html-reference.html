@@ -1,72 +1,162 @@
 <!DOCTYPE html>
 <html>
 <title>HTML Tutorial</title>
-<body>
 
-<h1>The HTML Reference Sheet</h1>
-
-<p>HTML:&lt;html&gt;</p>
-<p> Must HTML need to work</p>
-<hr>
-<p> Header:&lt;head&gt;</p>
-<p>It is the title that appears on the actual test</p>
-<h1>The HTML Reference Sheet</h1>
-<hr>
-<p>Title:&lt;title&gt;</p>
-<p>The title can help you tell the audience your main point</p>
-<title>HTML Tutorial</title>
-<hr>
-<p>Body:&lt;body&gt;</p>
-<p>The body can be used to start your new paragraph or just seperate writing from the heading.</p>
-<body>
-The content of the document......
-</body>
-<hr>
-<p> Headings: &lt;h1&gt;</p>
-<p>Search engines use the headings to index the structure and content of your web pages.</p>
-<h1>Heading 1</h1>
-<h2>Heading 2</h2>
-<h3>Heading 3</h3>
-<h4>Heading 4</h4>
-<h5>Heading 5</h5>
-<h6>Heading 6</h6>
-<hr>
-<p> Paragraph: &lt;p&gt;</p>
-<p>Pararaphs are for writing stuff into paragraphs to maybe help you explain something. This is a paragraph.</p>
-<hr>
-<p>Breaks: &lt;br&gt;</p>
-<p>It is useful for writing a poem or an address, where the division of lines is significant.</p>
-<p>This is where your first line of text goes
-<br> Your second sentence would begin here
-</p>
-<hr>
-<p>Lines: &lt;hr&gt;</p>
-<p>Lines are used to separate different things that need to be seperated. Like the explanation I am doing right now </p>
-<hr>
-<p>Comments: &lt;!-- --&gt;</p>
-<p> Comments are not displayed by the browser, but they can help document your HTML source code.</p>
-<hr>
-<p>Links: &lt;a&gt;</p>
-<p>You can click on a link and jump to another document.</p>
-<p><a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a></p>
-<hr>
-<p>Images: &lt;img&gt;</p>
-<p>Images are used to have a visual aid</p>
-<img src="https://cdn.vox-cdn.com/thumbor/avciGramUJ8ljFGsKgmiBxShiS8=/0x0:3052x1934/1200x800/filters:focal(1282x723:1770x1211)/cdn.vox-cdn.com/uploads/chorus_image/image/55470069/669120050.0.jpg" width="450" height="400">
-<hr>
-<p>Lists: &lt;ul&gt;</p>
-<p>Lists are for putting hings in order, for example, a ingredients list.</p>
-<hr>
-<p>Tables: &lt;table&gt;</p>
-<p>Tables are for making things more clear and more understanable. </p>
+<h1 class="mybgstyle"> The HTML Reference Sheet</h1>
 <style>
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
 }
 </style>
-</head>
-<body>
+<p class="myfstyle"> Here is a table that can help you understand HTML a little better:</p>
+
+    <h2>The reference table</h2>
+    
+    <table class="tablestyle2">
+      <tr>
+
+    <th>Name</th>
+    <th>Start Tag</th> 
+    <th>End Tag</th>
+  </tr>
+  <tr>
+    <td>HTML</td>
+    <td>&lt;html&gt;</td>
+    <td>&lt;/html&gt;</td>
+  </tr>
+  <tr>
+    <td>Head</td>
+    <td>&lt;head&gt;</td>
+    <td>&lt;/head&gt;</td>
+  </tr>
+  <tr>
+    <td>Title</td>
+    <td>&lt;title&gt;</td>
+    <td>&lt;/title&gt;</td>
+  <tr>
+    <td>Body</td>
+    <td>&lt;body&gt;</td>
+    <td>&lt;/body&gt;</td>
+  </tr>
+  <tr>
+    <td>Heading</td>
+    <td>&lt;h1&gt;</td>
+    <td>&lt;/h1&gt;</td>
+  </tr>
+  <tr>
+    <td>Paragraph</td>
+    <td>&lt;p&gt;</td>
+    <td>&lt;/p&gt;</td>
+  </tr>
+  <tr>
+    <td>Breaks</td>
+    <td>&lt;br&gt;</td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td>Lines</td>
+    <td>&lt;hr&gt;</td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td>Comments</td>
+    <td>&lt;!--</td>
+    <td>--&gt;</td>
+  <tr>
+    <td>Link</td>
+    <td>&lt;a&gt;</td>
+    <td>&lt;/a&gt;</td>
+  </tr>
+  <tr>
+    <td>Image</td>
+    <td>&lt;img&gt;</td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td>Lists</td>
+    <td>&lt;ul&gt;</td>
+    <td>&lt;/ul&gt;</td>
+    <tr>
+    <td>Table</td>
+    <td>&lt;table&gt;</td>
+    <td>&lt;/table&gt;</td>
+  </tr>
+  <tr>
+    <td>Blocks</td>
+    <td>&lt;div&gt;</td>
+    <td>&lt;/div&gt;</td>
+  </tr>
+</table>
+<hr>
+<p class="mytstyle"> HTML:&lt;html&gt;</p>
+<p class="mystyle"> You must need HTML to work.</p>
+<hr>
+<p class="mytstyle"> Header:&lt;head&gt;</p>
+<p class="mystyle"> It is the title that appears in the actual test.</p>
+<h1>The HTML Reference Sheet</h1>
+<hr>
+<p class="mytstyle"> Title:&lt;title&gt;</p>
+<p class="mystyle"> The title can help you tell the audience your main point.</p>
+<title>HTML Tutorial</title>
+<hr>
+<p class="mytstyle"> Body:&lt;body&gt;</p>
+<p class="mystyle"> The body can be used to start your new paragraph or just seperate writing from the heading.</p>
+
+The content of the document......
+
+<hr>
+<p class="mytstyle"> Headings:&lt;h1&gt;</p>
+<p class="mystyle"> Search engines use the headings to index the structure and content of your web pages.</p>
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+<a href="https://www.w3schools.com/html/html_headings.asp">W3schools</a>
+<hr>
+<p class="mytstyle"> Paragraph:&lt;p&gt;</p>
+<p class="mystyle"> Pararaphs are for writing stuff into paragraphs to maybe help you explain something. This is a paragraph.</p>
+<a href="https://www.w3schools.com/html/html_paragraphs.asp">W3schools</a>
+<hr>
+<p class="mytstyle"> Breaks:&lt;br&gt;</p>
+<p class="mystyle"> It is useful for writing a poem or an address, where the division of lines is significant.</p>
+<p>This is where your first line of text goes
+<br> Your second sentence would begin here
+</p>
+<hr>
+<p class="mytstyle"> Lines:&lt;hr&gt;</p>
+<p class="mystyle"> Lines are used to separate different things that need to be seperated. Like the explanation I am doing right now </p>
+<hr>
+<p class="mytstyle"> Comments:&lt;!-- --&gt;</p>
+<p class="mystyle"> Comments are not displayed by the browser, but they can help document your HTML source code. </p>
+<a href= "https://www.w3schools.com/html/html_comments.asp">W3schools</a>
+<hr>
+<p class="mytstyle"> Links:&lt;a&gt;</p>
+<p class="mystyle"> You can click on a link and jump to another document. </p>
+<p><a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a></p>
+<a href="https://www.w3schools.com/html/html_paragraphs.asp">W3schools</a>
+<hr>
+<p class="mytstyle"> Images:&lt;img&gt;</p>
+<p class="mystyle"> Images are used to have a visual aid.</p>
+<img src="https://cdn.vox-cdn.com/thumbor/avciGramUJ8ljFGsKgmiBxShiS8=/0x0:3052x1934/1200x800/filters:focal(1282x723:1770x1211)/cdn.vox-cdn.com/uploads/chorus_image/image/55470069/669120050.0.jpg" width="450" height="400">
+<a href="https://www.w3schools.com/html/html_images.asp">W3schools</a>
+<hr>
+<hr>
+<p class="mytstyle"> Lists:&lt;ul&gt;</p>
+<p class="mystyle"> Lists are for putting hings in order, for example, a ingredients list.</p>
+<a href="https://www.w3schools.com/html/html_lists.asp">W3schools</a>
+<hr>
+<hr>
+<p class="mytstyle"> Tables:&lt;table&gt;</p>
+<p class="mystyle"> Tables are for making things more clear and more understanable.</p>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+</style>
 
 <table style="width:100%">
   <tr>
@@ -90,11 +180,15 @@ table, th, td {
     <td>80</td>
   </tr>
 </table>
+<a href="https://www.w3schools.com/html/html_tables.asp">W3schools</a>
 <hr>
-<p>Blocks: &lt;div&gt;</p>
-<p>Every HTML element has a default display value depending on what type of element it is. The default display value for most elements is block or inline.</p>
+<hr>
+<p class="mytstyle"> Blocks:&lt;div&gt;</p>
+<p class="mystyle"> Every HTML element has a default display value depending on what type of element it is. The default display value for most elements is block or inline.</p>
 <div>Hello</div>
 <div>World</div>
 
 <p>The DIV element is a block element, and will start on a new line.</p>
+<a href="https://www.w3schools.com/html/html_blocks.asp">W3schools</a>
+<hr>
 
