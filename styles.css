@@ -1,0 +1,16 @@
+.content {
+  background-color: #33B5FF;
+}
+
+.content p {
+  font-family:"Ariel", sans-serif;
+  color:black;
+}
+.floatstyle {
+	float: left;
+ 	width: 300px;
+}
+
+.clearstyle {
+  clear: right;
+}
