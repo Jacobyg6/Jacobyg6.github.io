@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Static</title>
+<meta charset="utf-8">
+</head>
+  <body>
+  <p> This is my static page</p>
+  <p>This picture is high quality</p>
+  <p> This picture is 5700 pixel wide.</p>
+  <img src="http://mpwteach.github.io/images/sunset2-jpg-maxq.jpg">
+  </body>
+</html>
